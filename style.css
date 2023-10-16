@@ -1,0 +1,146 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    padding: 10px 0;
+    background-color: grey;
+    color: black;
+}
+
+.navbar .container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 90%;
+}
+.navbar .container .menu {
+    width: 70%;
+	display: flex;
+	justify-content: space-between;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+.navbar .container .menu ul{
+	width: 75%;
+	list-style:none;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.navbar .container .menu li a{
+    color: black;
+}
+.navbar .container .logo img {
+    width: 60px;
+}
+
+#home {
+    height: 700px;
+}
+
+#home .container {
+    display: flex;
+	align-items: center;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+#home .container .title {
+    width: 50%;
+    padding: 200px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#home .container .image img{
+    padding: 150px;
+}
+
+.about {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.about .heading span{
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gold;
+}
+
+.about .menu-container{
+    display: flex;
+    padding: 20% ;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin-top: -200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-container .box {
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 70px;
+}
+.menu-container .box .box-img2 img{
+    width: 100px;
+    margin: 10px;
+}
+
+.menu-container .box .box-img1 img{
+    margin: 10px;
+}
+
+.menu-container .box .box-img3 img{
+    margin: 10px;
+}
+
+.album{
+    margin-left: 35px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.album .text-galery h1{
+    color: gold;
+}
+
+.album .container .grid img{
+    width: 300px;
+    height: 300px;
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill,minmax(180px, 0fr));
+    align-items: center;
+    margin-left: 1px;
+}
+
+.grid img{
+    border-radius: 10px;
+    border: 5px solid gold;
+}
+
+.grid img:hover{
+    transform: scale(1.5);
+}
